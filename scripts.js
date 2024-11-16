@@ -1,1 +1,569 @@
-'use strict';function _0x59b8(_0x1104a0,_0x282736){const _0xb84a64=_0xb84a();return _0x59b8=function(_0x59b8cc,_0x5411da){_0x59b8cc=_0x59b8cc-0x185;let _0x2d1037=_0xb84a64[_0x59b8cc];return _0x2d1037;},_0x59b8(_0x1104a0,_0x282736);}const _0x20d7bd=_0x59b8;(function(_0x330ddc,_0x312ca9){const _0x19ae33=_0x59b8,_0x236414=_0x330ddc();while(!![]){try{const _0x2f66f6=parseInt(_0x19ae33(0x1f0))/0x1*(-parseInt(_0x19ae33(0x1e1))/0x2)+parseInt(_0x19ae33(0x1b2))/0x3+parseInt(_0x19ae33(0x1fc))/0x4+parseInt(_0x19ae33(0x1da))/0x5*(parseInt(_0x19ae33(0x19c))/0x6)+-parseInt(_0x19ae33(0x201))/0x7+-parseInt(_0x19ae33(0x1a3))/0x8+-parseInt(_0x19ae33(0x188))/0x9;if(_0x2f66f6===_0x312ca9)break;else _0x236414['push'](_0x236414['shift']());}catch(_0x188f68){_0x236414['push'](_0x236414['shift']());}}}(_0xb84a,0x3c695));const supabaseUrl='https://sirigarvmxiinxyermoj.supabase.co',supabaseKey=_0x20d7bd(0x1af),database=supabase[_0x20d7bd(0x1ff)](supabaseUrl,supabaseKey);async function fetchQuestions(){const _0x2acad5=_0x20d7bd;let {data:_0x1793f9,error:_0x332618}=await database[_0x2acad5(0x1c9)](_0x2acad5(0x1ea))['select']('*')[_0x2acad5(0x204)]('id',{'ascending':!![]});if(_0x332618){console[_0x2acad5(0x1e6)]('Error\x20fetching\x20question\x20data:',_0x332618);return;}let {data:_0x42f2c3,error:_0x557683}=await database[_0x2acad5(0x1c9)](_0x2acad5(0x18f))[_0x2acad5(0x1f5)]('*');if(_0x557683){console[_0x2acad5(0x1e6)](_0x2acad5(0x1b3),_0x557683);return;}let _0x154178=document['getElementById'](_0x2acad5(0x195)),_0x17ace1=document[_0x2acad5(0x19a)](_0x2acad5(0x1d0)),_0x285384=document['getElementById'](_0x2acad5(0x1e5)),_0x1d0af9=document['getElementsByClassName'](_0x2acad5(0x194)),_0x194fa8=document[_0x2acad5(0x19a)](_0x2acad5(0x196));document['getElementById']('start')[_0x2acad5(0x19f)](_0x2acad5(0x1c0),function(){const _0x4ab31e=_0x2acad5;for(let _0x35116b of _0x1d0af9){_0x35116b['style']['display']=_0x4ab31e(0x1ba);};_0x154178[_0x4ab31e(0x1f8)]['display']=_0x4ab31e(0x1ba),_0x17ace1[_0x4ab31e(0x1f8)][_0x4ab31e(0x1a0)]=_0x4ab31e(0x1bd),_0x3c51de(_0x1776d8);});let _0x1776d8=0x0,_0x3aa506=document['querySelectorAll'](_0x2acad5(0x1dd));_0x3aa506['forEach'](_0x4a8615=>{const _0x43121c=_0x2acad5;_0x4a8615[_0x43121c(0x19f)](_0x43121c(0x1c0),function(){const _0x4042cd=_0x43121c;_0x3aa506['forEach'](_0x40d7ce=>{const _0x30e697=_0x59b8;_0x40d7ce[_0x30e697(0x190)]['remove']('clicked');}),this[_0x4042cd(0x190)][_0x4042cd(0x198)](_0x4042cd(0x1fe)),_0x331e12[_0x4042cd(0x1f8)][_0x4042cd(0x1a0)]=_0x4042cd(0x1bd),_0x39a970[_0x4042cd(0x1f8)][_0x4042cd(0x1a0)]=_0x4042cd(0x1bd),_0x6cefe(_0x1776d8+0x1);});});let _0x6b8812=[],_0x1de3f8,_0x331e12=document['getElementById'](_0x2acad5(0x1ed));_0x331e12[_0x2acad5(0x19f)]('click',function(){const _0x4c4ea3=_0x2acad5;_0x331e12[_0x4c4ea3(0x1f8)][_0x4c4ea3(0x1a0)]=_0x4c4ea3(0x1ba),_0x39a970[_0x4c4ea3(0x1f8)]['display']='none',_0x3aa506[_0x4c4ea3(0x200)](_0x2e51fa=>{const _0x3e3f95=_0x4c4ea3;if(_0x2e51fa[_0x3e3f95(0x190)][_0x3e3f95(0x1be)]('clicked')){let _0x12b475=parseInt(_0x2e51fa['id']);_0x6b8812[_0x3e3f95(0x1c3)](_0x12b475),console[_0x3e3f95(0x18d)](_0x6b8812),_0x27972b[_0x3e3f95(0x18e)]==_0x3e3f95(0x185)&&(_0x1de3f8=parseInt(_0x2e51fa[_0x3e3f95(0x18e)]),console[_0x3e3f95(0x18d)](_0x1de3f8));};_0x2e51fa[_0x3e3f95(0x190)][_0x3e3f95(0x1b9)](_0x3e3f95(0x1fe));}),_0x1776d8++,_0x3c51de(_0x1776d8);});let _0x39a970=document[_0x2acad5(0x19a)](_0x2acad5(0x1b0));_0x39a970['addEventListener']('click',function(){const _0x45c903=_0x2acad5;_0x331e12[_0x45c903(0x1f8)][_0x45c903(0x1a0)]='none',_0x39a970['style'][_0x45c903(0x1a0)]=_0x45c903(0x1ba),_0x3aa506['forEach'](_0x30d169=>_0x30d169[_0x45c903(0x190)][_0x45c903(0x1b9)](_0x45c903(0x1fe))),_0x1776d8=0x0,_0x6b8812=[],_0x3c51de(_0x1776d8),_0x6cefe(_0x1776d8);});let _0x3b7d4c=document[_0x2acad5(0x19a)]('1'),_0x4f3380=document['getElementById']('2'),_0x15c479=document[_0x2acad5(0x19a)]('3'),_0x2c9635=document[_0x2acad5(0x19a)]('4'),_0x523d03=document[_0x2acad5(0x19a)]('questionNum'),_0x27972b=document[_0x2acad5(0x19a)]('question'),_0x926c72=document[_0x2acad5(0x1f1)](_0x2acad5(0x1bf)),_0x446325=document[_0x2acad5(0x19a)](_0x2acad5(0x189)),_0x29d267=document[_0x2acad5(0x19a)](_0x2acad5(0x1d5)),_0x59b6a3=document[_0x2acad5(0x19a)](_0x2acad5(0x1cd)),_0x35e629=document['querySelector'](_0x2acad5(0x1d6));_0x926c72['addEventListener'](_0x2acad5(0x1c0),()=>_0x446325['style']['display']=_0x2acad5(0x1bd)),_0x35e629[_0x2acad5(0x19f)]('click',()=>_0x446325[_0x2acad5(0x1f8)][_0x2acad5(0x1a0)]=_0x2acad5(0x1ba));function _0x3c51de(_0x12e4ce){const _0x243f3e=_0x2acad5;console[_0x243f3e(0x18d)]('this\x20is\x20num'+_0x12e4ce),_0x1793f9[_0x243f3e(0x18a)]<_0x12e4ce+0x1?(_0x17ace1[_0x243f3e(0x1f8)][_0x243f3e(0x1a0)]=_0x243f3e(0x1ba),_0x285384[_0x243f3e(0x1f8)]['display']=_0x243f3e(0x1bd),planHead['style'][_0x243f3e(0x1a0)]=_0x243f3e(0x1e2),_0x194fa8[_0x243f3e(0x1f8)][_0x243f3e(0x1a0)]=_0x243f3e(0x1e2),_0x2c681f(_0x42f2c3),localStorage['setItem'](_0x243f3e(0x1b4),JSON[_0x243f3e(0x19d)](_0x6b8812)),console[_0x243f3e(0x18d)](localStorage[_0x243f3e(0x1e7)](_0x243f3e(0x1b4)))):(_0x523d03[_0x243f3e(0x18e)]='Question\x20'+(_0x12e4ce+0x1),_0x27972b[_0x243f3e(0x18e)]=_0x1793f9[_0x12e4ce][_0x243f3e(0x199)],_0x3b7d4c[_0x243f3e(0x18e)]=_0x1793f9[_0x12e4ce]['a1'],_0x4f3380[_0x243f3e(0x18e)]=_0x1793f9[_0x12e4ce]['a2'],_0x15c479[_0x243f3e(0x18e)]=_0x1793f9[_0x12e4ce]['a3'],_0x2c9635[_0x243f3e(0x18e)]=_0x1793f9[_0x12e4ce]['a4'],_0x59b6a3['innerHTML']=_0x1793f9[_0x12e4ce][_0x243f3e(0x1d3)],_0x29d267['innerHTML']=_0x1793f9[_0x12e4ce]['info']);}let _0x29cd69=document[_0x2acad5(0x19a)](_0x2acad5(0x1bc));function _0x6cefe(_0x18e3ae){const _0x568eff=_0x2acad5;let _0x353e80=0x64/_0x1793f9[_0x568eff(0x18a)];_0x29cd69[_0x568eff(0x1f8)][_0x568eff(0x1c6)]=_0x18e3ae*_0x353e80+'%';}let _0x47f6a5=document[_0x2acad5(0x19a)](_0x2acad5(0x1aa)),_0x4b8d69=document[_0x2acad5(0x1ab)](_0x2acad5(0x1ae));_0x4b8d69[_0x2acad5(0x200)](_0x4a2e5a=>{const _0x8a204=_0x2acad5;_0x4a2e5a[_0x8a204(0x19f)](_0x8a204(0x1c0),function(){const _0x133e75=_0x8a204;_0x4b8d69['forEach'](_0x20a4bb=>{const _0x1a9e41=_0x59b8;_0x20a4bb[_0x1a9e41(0x190)][_0x1a9e41(0x1b9)]('filterClick');}),this[_0x133e75(0x190)][_0x133e75(0x198)](_0x133e75(0x1ef)),_0x5b1dcc(this['id']);});});function _0x5b1dcc(_0x268617){const _0x200267=_0x2acad5;_0x37f7f8=0x1;_0x268617==_0x200267(0x193)&&_0x2c681f(_0x42f2c3);if(_0x268617==_0x200267(0x191)){let _0x61f71=[];for(let _0x1b4a4f of _0x42f2c3){(_0x1b4a4f[_0x200267(0x1bb)]['includes'](_0x200267(0x1b5))||_0x1b4a4f[_0x200267(0x1bb)][_0x200267(0x1de)](_0x200267(0x1b7)))&&_0x61f71[_0x200267(0x1c3)](_0x1b4a4f);}_0x2c681f(_0x61f71);}if(_0x268617==_0x200267(0x1fb)){let _0x4a4470=[];for(let _0x27ffcc of _0x42f2c3){(_0x27ffcc[_0x200267(0x1bb)][_0x200267(0x1de)](_0x200267(0x206))||_0x27ffcc[_0x200267(0x1bb)]['includes'](_0x200267(0x1b7)))&&_0x4a4470[_0x200267(0x1c3)](_0x27ffcc);}_0x2c681f(_0x4a4470);}if(_0x268617==_0x200267(0x19e)){let _0x454d96=[];for(let _0x4a7608 of _0x42f2c3){(_0x4a7608[_0x200267(0x1bb)][_0x200267(0x1de)](_0x200267(0x1dc))||_0x4a7608['network'][_0x200267(0x1de)](_0x200267(0x1b7)))&&_0x454d96[_0x200267(0x1c3)](_0x4a7608);}_0x2c681f(_0x454d96);}console[_0x200267(0x18d)](_0x2b2356);}let _0x2b2356;function _0x2c681f(_0x56f287){const _0x5dae6b=_0x2acad5;for(let _0x553633 of _0x56f287){let _0x3f332c=[];for(let _0x21b7e7=0x0;_0x21b7e7<_0x553633['score'][_0x5dae6b(0x18a)];_0x21b7e7++){let _0x134c45=Math['abs'](_0x6b8812[_0x21b7e7+0x1]-parseInt(_0x553633[_0x5dae6b(0x1d1)][_0x21b7e7]));_0x3f332c[_0x5dae6b(0x1c3)](_0x134c45);}let _0x5968f1=0x0;for(let _0x52543f=0x0;_0x52543f<_0x3f332c['length'];_0x52543f++){_0x5968f1+=_0x3f332c[_0x52543f];}_0x553633[_0x5dae6b(0x1b1)]=_0x5968f1;}_0x2b2356=_0x56f287[_0x5dae6b(0x1df)]((_0x4b2f3e,_0x352e81)=>_0x4b2f3e[_0x5dae6b(0x1b1)]-_0x352e81[_0x5dae6b(0x1b1)]),console[_0x5dae6b(0x18d)](_0x2b2356),_0x171546(_0x2b2356);}let _0x37f7f8=0x1;function _0x171546(_0x52d252){const _0x23beab=_0x2acad5,_0x59075f=0x4,_0x5d19bd=Math[_0x23beab(0x192)](_0x52d252[_0x23beab(0x18a)]/_0x59075f);_0x47f6a5[_0x23beab(0x18e)]='';const _0x2bedeb=(_0x37f7f8-0x1)*_0x59075f,_0x1db8d8=Math[_0x23beab(0x1c4)](_0x2bedeb+_0x59075f,_0x52d252[_0x23beab(0x18a)]);for(let _0x359fe1=_0x2bedeb;_0x359fe1<_0x1db8d8;_0x359fe1++){const _0x48ee92=_0x52d252[_0x359fe1];_0x47f6a5[_0x23beab(0x18e)]+=_0x23beab(0x187)+_0x48ee92[_0x23beab(0x1d8)]+_0x23beab(0x1c2)+_0x48ee92[_0x23beab(0x1d8)]+'\x22>'+_0x48ee92[_0x23beab(0x1c7)]+'</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22subHead\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22lines\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-users\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M9\x207m-4\x200a4\x204\x200\x201\x200\x208\x200a4\x204\x200\x201\x200\x20-8\x200\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3\x2021v-2a4\x204\x200\x200\x201\x204\x20-4h4a4\x204\x200\x200\x201\x204\x204v2\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M16\x203.13a4\x204\x200\x200\x201\x200\x207.75\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M21\x2021v-2a4\x204\x200\x200\x200\x20-3\x20-3.85\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>'+_0x1de3f8+_0x23beab(0x1d2)+_0x48ee92['network']+_0x23beab(0x1a2)+parseInt(_0x48ee92[_0x23beab(0x1c8)])*_0x1de3f8+_0x23beab(0x1a6)+_0x48ee92[_0x23beab(0x1e9)]+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22highSpeed\x22>'+_0x48ee92[_0x23beab(0x1a4)]+_0x23beab(0x1ca)+_0x48ee92[_0x23beab(0x197)]+_0x23beab(0x202)+_0x48ee92[_0x23beab(0x1eb)]+_0x23beab(0x1fd)+_0x48ee92[_0x23beab(0x1e4)]+_0x23beab(0x1f3)+_0x48ee92[_0x23beab(0x1d4)]+_0x23beab(0x1e0)+_0x48ee92[_0x23beab(0x1cf)]+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22calls\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-phone\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M5\x204h4l2\x205l-2.5\x201.5a11\x2011\x200\x200\x200\x205\x205l1.5\x20-2.5l5\x202v4a2\x202\x200\x200\x201\x20-2\x202a16\x2016\x200\x200\x201\x20-15\x20-15a2\x202\x200\x200\x201\x202\x20-2\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>'+_0x48ee92[_0x23beab(0x1a7)]+_0x23beab(0x1ac)+_0x48ee92[_0x23beab(0x1e3)]+_0x23beab(0x205)+_0x48ee92[_0x23beab(0x19b)]+_0x23beab(0x1f2)+_0x48ee92[_0x23beab(0x1f6)]+_0x23beab(0x1b8)+_0x48ee92[_0x23beab(0x1b6)]+_0x23beab(0x1a8)+_0x48ee92[_0x23beab(0x1a1)]+_0x23beab(0x207)+_0x48ee92['fullCompanyName']+_0x23beab(0x1d7);}console['log'](_0x5d19bd),_0x2cb47c(_0x5d19bd);}function _0x2cb47c(_0x477b5d){const _0xdbe63a=_0x2acad5;let _0x30b5ac=document['getElementById'](_0xdbe63a(0x1ce));_0x30b5ac[_0xdbe63a(0x18e)]='';for(let _0x46afea=0x1;_0x46afea<=_0x477b5d;_0x46afea++){const _0x37367b=document[_0xdbe63a(0x1fa)]('button');_0x37367b[_0xdbe63a(0x190)][_0xdbe63a(0x198)](_0xdbe63a(0x1f9)),_0x46afea===_0x37f7f8&&_0x37367b[_0xdbe63a(0x190)][_0xdbe63a(0x198)]('pageBtnClick'),_0x37367b[_0xdbe63a(0x203)]=''+_0x46afea,_0x37367b[_0xdbe63a(0x19f)](_0xdbe63a(0x1c0),()=>{_0x37f7f8=_0x46afea,_0x171546(_0x2b2356);}),_0x30b5ac[_0xdbe63a(0x1f4)](_0x37367b);}}document[_0x2acad5(0x19a)](_0x2acad5(0x1a9))[_0x2acad5(0x19f)]('click',()=>{const _0x535a94=_0x2acad5;_0x154178[_0x535a94(0x1f8)][_0x535a94(0x1a0)]='flex';for(let _0x1bd4d0 of _0x1d0af9){_0x1bd4d0[_0x535a94(0x1f8)]['display']='flex';};_0x285384['style'][_0x535a94(0x1a0)]=_0x535a94(0x1ba),planHead['style'][_0x535a94(0x1a0)]=_0x535a94(0x1ba),_0x194fa8[_0x535a94(0x1f8)][_0x535a94(0x1a0)]=_0x535a94(0x1ba),_0x6b8812=[],_0x47f6a5[_0x535a94(0x18e)]='',_0x1776d8=0x0,_0x29cd69[_0x535a94(0x1f8)][_0x535a94(0x1c6)]='0',_0x37f7f8=0x1,localStorage['clear']();}),$(_0x2acad5(0x1f7))['on']('click',_0x33ddc2);function _0x33ddc2(){const _0x4d932b=_0x2acad5;if(localStorage[_0x4d932b(0x1e7)](_0x4d932b(0x1b4))!==null){$(_0x4d932b(0x1f7))[_0x4d932b(0x1cb)]('hidden');for(let _0x4752ae of _0x1d0af9){_0x4752ae[_0x4d932b(0x1f8)][_0x4d932b(0x1a0)]='none';};_0x154178[_0x4d932b(0x1f8)]['display']=_0x4d932b(0x1ba),_0x17ace1[_0x4d932b(0x1f8)][_0x4d932b(0x1a0)]=_0x4d932b(0x1bd),_0x17ace1['style'][_0x4d932b(0x1a0)]=_0x4d932b(0x1ba),_0x285384[_0x4d932b(0x1f8)][_0x4d932b(0x1a0)]=_0x4d932b(0x1bd),planHead[_0x4d932b(0x1f8)][_0x4d932b(0x1a0)]=_0x4d932b(0x1e2),_0x194fa8[_0x4d932b(0x1f8)][_0x4d932b(0x1a0)]='block',_0x6b8812=JSON[_0x4d932b(0x1db)](localStorage[_0x4d932b(0x1e7)](_0x4d932b(0x1b4))),_0x1de3f8=_0x6b8812[0x0],_0x2c681f(_0x42f2c3);}else console[_0x4d932b(0x1e6)](_0x4d932b(0x1c1)),$(_0x4d932b(0x1f7))[_0x4d932b(0x1cb)](_0x4d932b(0x18b));}document[_0x2acad5(0x19a)](_0x2acad5(0x1d9))[_0x2acad5(0x203)]=new Date()[_0x2acad5(0x1ec)]();}const plusIcon=_0x20d7bd(0x1ad),minusIcon=_0x20d7bd(0x18c);$(function(){const _0x529be5=_0x20d7bd;localStorage[_0x529be5(0x1e7)](_0x529be5(0x1b4))&&$(_0x529be5(0x1f7))['removeClass'](_0x529be5(0x18b)),$(_0x529be5(0x1cc))[_0x529be5(0x208)]({'active':![],'collapsible':!![],'icons':![],'heightStyle':_0x529be5(0x1c5),'create':function(_0x3af4a8,_0x560466){const _0x435934=_0x529be5;$('.accordionIcon')[_0x435934(0x1e8)](plusIcon);},'activate':function(_0xe860ce,_0x603348){const _0x1badf4=_0x529be5;$('.accordionIcon')[_0x1badf4(0x1e8)](plusIcon),$(_0x1badf4(0x186))[_0x1badf4(0x1e8)](minusIcon);}}),$(_0x529be5(0x1ee))[_0x529be5(0x1a5)]({'loop':!![],'margin':0xf,'responsive':{0x0:{'items':0x2},0x1e0:{'items':0x3}},'autoplay':!![],'autoplayTimeout':0x1388,'autoplayHoverPause':!![],'dots':!![]});}),fetchQuestions();function _0xb84a(){const _0x508371=['streamQlty','modalP','#modalWrapper\x20svg','</a><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-arrow-big-right\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#000000\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M4\x209h8v-3.586a1\x201\x200\x200\x201\x201.707\x20-.707l6.586\x206.586a1\x201\x200\x200\x201\x200\x201.414l-6.586\x206.586a1\x201\x200\x200\x201\x20-1.707\x20-.707v-3.586h-8a1\x201\x200\x200\x201\x20-1\x20-1v-4a1\x201\x200\x200\x201\x201\x20-1z\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','company','year','1012380OuNEvf','parse','T-Mobile','#answers\x20button','includes','sort','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22texts\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-message-circle-2\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3\x2020l1.3\x20-3.9a9\x208\x200\x201\x201\x203.4\x202.9l-4.7\x201\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>','37358bKQDqJ','block','intTexts','hotspot','plansWrapper','error','getItem','html','taxes','questions','priorityData','getFullYear','next','.owl-carousel','filterClick','25tDBuRA','querySelector','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22mexData\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-plane\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M16\x2010h4a2\x202\x200\x200\x201\x200\x204h-4l-4\x207h-3l2\x20-7h-4l-2\x202h-3l2\x20-4l-2\x20-4h3l2\x202h4l-2\x20-7h3z\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22streaming\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-brand-zoom\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M17.011\x209.385v5.128l3.989\x203.487v-12z\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3.887\x206h10.08c1.468\x200\x203.033\x201.203\x203.033\x202.803v8.196a.991\x20.991\x200\x200\x201\x20-.975\x201h-10.373c-1.667\x200\x20-2.652\x20-1.5\x20-2.652\x20-3l.01\x20-8a.882\x20.882\x200\x200\x201\x20.208\x20-.71a.841\x20.841\x200\x200\x201\x20.67\x20-.287z\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>','appendChild','select','mexData','#resume','style','pageBtns','createElement','attFilter','1088344qewhsO','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22hotspot\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20fill=\x22none\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20class=\x22size-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22\x20d=\x22M13.19\x208.688a4.5\x204.5\x200\x200\x201\x201.242\x207.244l-4.5\x204.5a4.5\x204.5\x200\x200\x201-6.364-6.364l1.757-1.757m13.35-.622\x201.757-1.757a4.5\x204.5\x200\x200\x200-6.364-6.364l-4.5\x204.5a4.5\x204.5\x200\x200\x200\x201.242\x207.244\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>','clicked','createClient','forEach','222061sgmWrZ','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22priority\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-brand-speedtest\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M5.636\x2019.364a9\x209\x200\x201\x201\x2012.728\x200\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M16\x209l-4\x204\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>','textContent','order','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22intCalls\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-phone-call\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M5\x204h4l2\x205l-2.5\x201.5a11\x2011\x200\x200\x200\x205\x205l1.5\x20-2.5l5\x202v4a2\x202\x200\x200\x201\x20-2\x202a16\x2016\x200\x200\x201\x20-15\x20-15a2\x202\x200\x200\x201\x202\x20-2\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M15\x207a2\x202\x200\x200\x201\x202\x202\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M15\x203a6\x206\x200\x200\x201\x206\x206\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>','AT&T','\x22\x20target=\x22_blank\x22>View\x20at\x20','accordion','How\x20many\x20lines\x20do\x20you\x20need?','.ui-state-active\x20.accordionIcon','<div\x20class=\x22plan\x20','1855368vumVyB','infoModal','length','hidden','<svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20fill=\x22none\x22\x20stroke=\x22currentColor\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22\x20width=\x2224\x22\x20height=\x2224\x22\x20stroke-width=\x222\x22>\x20<path\x20d=\x22M5\x2012l14\x200\x22></path>\x20</svg>','log','innerHTML','plans','classList','verizonFilter','ceil','allFilter','introText','header','footer','afterHighSpeed','add','question','getElementById','intCalls','12gaWEdA','stringify','tmobileFilter','addEventListener','display','linkToSite','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22priceNtax\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22price\x22><span\x20class=\x22largePrice\x22>$','1037752kzmiwz','highSpeed','owlCarousel','</span>/mo.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22tax\x22>','calls','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22linkBtn\x22><a\x20class=\x22planLink\x22\x20href=\x22','newQuiz','recommendedPlans','querySelectorAll','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22intTexts\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-message\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M8\x209h8\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M8\x2013h6\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M18\x204a3\x203\x200\x200\x201\x203\x203v8a3\x203\x200\x200\x201\x20-3\x203h-5l-5\x203v-3h-2a3\x203\x200\x200\x201\x20-3\x20-3v-8a3\x203\x200\x200\x201\x203\x20-3h12z\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>','<svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20fill=\x22none\x22\x20stroke=\x22currentColor\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22\x20width=\x2224\x22\x20height=\x2224\x22\x20stroke-width=\x222\x22>\x20<path\x20d=\x22M12\x205l0\x2014\x22></path>\x20<path\x20d=\x22M5\x2012l14\x200\x22></path>\x20</svg>','.filter','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNpcmlnYXJ2bXhpaW54eWVybW9qIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjUzMzg0OTksImV4cCI6MjA0MDkxNDQ5OX0.m14T-4NNpWOgT886U5diabvtpmTRJcEnjPbzIZ2utVc','restart','total','1214928JDdstG','Error\x20fetching\x20question\x20data:','previousAnswers','Verizon','intData','Any','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22intData\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-world\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3\x2012a9\x209\x200\x201\x200\x2018\x200a9\x209\x200\x200\x200\x20-18\x200\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3.6\x209h16.8\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3.6\x2015h16.8\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M11.5\x203a17\x2017\x200\x200\x200\x200\x2018\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M12.5\x203a17\x2017\x200\x200\x201\x200\x2018\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>','remove','none','network','progressBar','flex','contains','#questionSVG\x20svg','click','There\x20was\x20an\x20error\x20retrieving\x20previous\x20answers.\x20Please\x20retake\x20the\x20quiz.','Border\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20class=\x22cardHead\x20','push','min','content','width','plan','pricePer','from','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22afterHighSpeed\x22>','addClass','#accordion','modalHead','pageButtons','texts','questionsWrapper','score','\x20Line</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22network\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-access-point\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M12\x2012l0\x20.01\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M14.828\x209.172a4\x204\x200\x200\x201\x200\x205.656\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M17.657\x206.343a8\x208\x200\x200\x201\x200\x2011.314\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M9.168\x2014.828a4\x204\x200\x200\x201\x200\x20-5.656\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M6.337\x2017.657a8\x208\x200\x200\x201\x200\x20-11.314\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>','title'];_0xb84a=function(){return _0x508371;};return _0xb84a();}
+"use strict";
+const _0x37f1e4 = _0x8544;
+(function (_0x41f36e, _0x304225) {
+    const _0x237557 = _0x8544,
+        _0x4a0086 = _0x41f36e();
+    while (!![]) {
+        try {
+            const _0x2d0256 =
+                (parseInt(_0x237557(0x19e)) / 0x1) *
+                    (-parseInt(_0x237557(0x17b)) / 0x2) +
+                (parseInt(_0x237557(0x16f)) / 0x3) *
+                    (-parseInt(_0x237557(0x1b2)) / 0x4) +
+                (parseInt(_0x237557(0x1a5)) / 0x5) *
+                    (parseInt(_0x237557(0x18e)) / 0x6) +
+                (parseInt(_0x237557(0x180)) / 0x7) *
+                    (parseInt(_0x237557(0x18d)) / 0x8) +
+                -parseInt(_0x237557(0x1de)) / 0x9 +
+                (-parseInt(_0x237557(0x1bd)) / 0xa) *
+                    (parseInt(_0x237557(0x1c2)) / 0xb) +
+                (parseInt(_0x237557(0x186)) / 0xc) *
+                    (parseInt(_0x237557(0x1d7)) / 0xd);
+            if (_0x2d0256 === _0x304225) break;
+            else _0x4a0086["push"](_0x4a0086["shift"]());
+        } catch (_0x4aea61) {
+            _0x4a0086["push"](_0x4a0086["shift"]());
+        }
+    }
+})(_0x28c9, 0x65ebe);
+const supabaseUrl = _0x37f1e4(0x1da),
+    supabaseKey = _0x37f1e4(0x1ce),
+    database = supabase["createClient"](supabaseUrl, supabaseKey);
+function _0x8544(_0x52891f, _0x276d26) {
+    const _0x28c97e = _0x28c9();
+    return (
+        (_0x8544 = function (_0x8544d3, _0xa231df) {
+            _0x8544d3 = _0x8544d3 - 0x166;
+            let _0x11bdb4 = _0x28c97e[_0x8544d3];
+            return _0x11bdb4;
+        }),
+        _0x8544(_0x52891f, _0x276d26)
+    );
+}
+async function fetchQuestions() {
+    const _0x3518f3 = _0x37f1e4;
+    let { data: _0x3eabcd, error: _0x16c98a } = await database[
+        _0x3518f3(0x17a)
+    ](_0x3518f3(0x1e0))
+        [_0x3518f3(0x1c5)]("*")
+        [_0x3518f3(0x1d4)]("id", { ascending: !![] });
+    if (_0x16c98a) {
+        console["error"]("Error\x20fetching\x20question\x20data:", _0x16c98a);
+        return;
+    }
+    let { data: _0x33e4c4, error: _0x5cfb01 } = await database[
+        _0x3518f3(0x17a)
+    ](_0x3518f3(0x1a3))["select"]("*");
+    if (_0x5cfb01) {
+        console[_0x3518f3(0x1a8)](_0x3518f3(0x171), _0x5cfb01);
+        return;
+    }
+    let _0x4496ca = document[_0x3518f3(0x1ca)](_0x3518f3(0x1b4)),
+        _0x5dc481 = document[_0x3518f3(0x1ca)]("questionsWrapper"),
+        _0x2b012e = document[_0x3518f3(0x1ca)](_0x3518f3(0x185)),
+        _0x2f7d53 = document[_0x3518f3(0x1aa)](_0x3518f3(0x1e6)),
+        _0x58cca5 = document["getElementById"](_0x3518f3(0x166));
+    document["getElementById"](_0x3518f3(0x168))[_0x3518f3(0x1ba)](
+        _0x3518f3(0x1d3),
+        function () {
+            const _0x53582b = _0x3518f3;
+            for (let _0x11b80a of _0x2f7d53) {
+                _0x11b80a[_0x53582b(0x1b3)][_0x53582b(0x1c7)] =
+                    _0x53582b(0x189);
+            }
+            (_0x4496ca[_0x53582b(0x1b3)][_0x53582b(0x1c7)] = _0x53582b(0x189)),
+                (_0x5dc481[_0x53582b(0x1b3)][_0x53582b(0x1c7)] = "flex"),
+                _0xa80ecf(_0x5d6031);
+        }
+    );
+    let _0x5d6031 = 0x0,
+        _0x110323 = document["querySelectorAll"](_0x3518f3(0x1c3));
+    _0x110323[_0x3518f3(0x1b6)]((_0x555d70) => {
+        const _0x19d8e7 = _0x3518f3;
+        _0x555d70[_0x19d8e7(0x1ba)]("click", function () {
+            const _0x30cab3 = _0x19d8e7;
+            _0x110323[_0x30cab3(0x1b6)]((_0x405b6a) => {
+                const _0xf090a1 = _0x30cab3;
+                _0x405b6a[_0xf090a1(0x17d)][_0xf090a1(0x1ad)](_0xf090a1(0x1a6));
+            }),
+                this[_0x30cab3(0x17d)][_0x30cab3(0x191)](_0x30cab3(0x1a6)),
+                (_0x500919[_0x30cab3(0x1b3)][_0x30cab3(0x1c7)] =
+                    _0x30cab3(0x1be)),
+                (_0x5dcea2[_0x30cab3(0x1b3)]["display"] = "flex"),
+                _0x245794(_0x5d6031 + 0x1);
+        });
+    });
+    let _0x49e149 = [],
+        _0x3ded49,
+        _0x500919 = document[_0x3518f3(0x1ca)]("next");
+    _0x500919[_0x3518f3(0x1ba)](_0x3518f3(0x1d3), function () {
+        const _0x5d8d65 = _0x3518f3;
+        (_0x500919[_0x5d8d65(0x1b3)][_0x5d8d65(0x1c7)] = _0x5d8d65(0x189)),
+            (_0x5dcea2[_0x5d8d65(0x1b3)][_0x5d8d65(0x1c7)] = _0x5d8d65(0x189)),
+            _0x110323[_0x5d8d65(0x1b6)]((_0x3081db) => {
+                const _0x300212 = _0x5d8d65;
+                if (_0x3081db[_0x300212(0x17d)][_0x300212(0x1d9)]("clicked")) {
+                    let _0x333666 = parseInt(_0x3081db["id"]);
+                    _0x49e149[_0x300212(0x1af)](_0x333666),
+                        console["log"](_0x49e149),
+                        _0x57e5c4[_0x300212(0x18b)] ==
+                            "How\x20many\x20lines\x20do\x20you\x20need?" &&
+                            ((_0x3ded49 = parseInt(_0x3081db["innerHTML"])),
+                            console[_0x300212(0x1a7)](_0x3ded49));
+                }
+                _0x3081db[_0x300212(0x17d)][_0x300212(0x1ad)](_0x300212(0x1a6));
+            }),
+            _0x5d6031++,
+            _0xa80ecf(_0x5d6031);
+    });
+    let _0x5dcea2 = document["getElementById"](_0x3518f3(0x16b));
+    _0x5dcea2[_0x3518f3(0x1ba)]("click", function () {
+        const _0x99142b = _0x3518f3;
+        (_0x500919[_0x99142b(0x1b3)][_0x99142b(0x1c7)] = _0x99142b(0x189)),
+            (_0x5dcea2[_0x99142b(0x1b3)]["display"] = _0x99142b(0x189)),
+            _0x110323[_0x99142b(0x1b6)]((_0x26f5dc) =>
+                _0x26f5dc[_0x99142b(0x17d)][_0x99142b(0x1ad)](_0x99142b(0x1a6))
+            ),
+            (_0x5d6031 = 0x0),
+            (_0x49e149 = []),
+            _0xa80ecf(_0x5d6031),
+            _0x245794(_0x5d6031);
+    });
+    let _0x4f61fd = document[_0x3518f3(0x1ca)]("1"),
+        _0x522de4 = document[_0x3518f3(0x1ca)]("2"),
+        _0xd38d85 = document[_0x3518f3(0x1ca)]("3"),
+        _0x5e7b10 = document["getElementById"]("4"),
+        _0x39e395 = document["getElementById"](_0x3518f3(0x1d1)),
+        _0x57e5c4 = document[_0x3518f3(0x1ca)](_0x3518f3(0x1cd)),
+        _0x1f3e33 = document[_0x3518f3(0x1bb)]("#questionSVG\x20svg"),
+        _0xa4b569 = document[_0x3518f3(0x1ca)](_0x3518f3(0x188)),
+        _0x4039cd = document[_0x3518f3(0x1ca)](_0x3518f3(0x1c4)),
+        _0x338dca = document["getElementById"](_0x3518f3(0x18f)),
+        _0x419a7d = document["querySelector"](_0x3518f3(0x196));
+    _0x1f3e33[_0x3518f3(0x1ba)](
+        _0x3518f3(0x1d3),
+        () => (_0xa4b569[_0x3518f3(0x1b3)][_0x3518f3(0x1c7)] = _0x3518f3(0x1be))
+    ),
+        _0x419a7d["addEventListener"](
+            _0x3518f3(0x1d3),
+            () => (_0xa4b569["style"][_0x3518f3(0x1c7)] = _0x3518f3(0x189))
+        );
+    function _0xa80ecf(_0x449df3) {
+        const _0x3bf64a = _0x3518f3;
+        console[_0x3bf64a(0x1a7)](_0x3bf64a(0x19d) + _0x449df3),
+            _0x3eabcd["length"] < _0x449df3 + 0x1
+                ? ((_0x5dc481[_0x3bf64a(0x1b3)][_0x3bf64a(0x1c7)] = "none"),
+                  (_0x2b012e[_0x3bf64a(0x1b3)][_0x3bf64a(0x1c7)] = "flex"),
+                  (planHead[_0x3bf64a(0x1b3)][_0x3bf64a(0x1c7)] =
+                      _0x3bf64a(0x176)),
+                  (_0x58cca5["style"][_0x3bf64a(0x1c7)] = "block"),
+                  _0x1af494(_0x33e4c4),
+                  localStorage["setItem"](
+                      _0x3bf64a(0x190),
+                      JSON[_0x3bf64a(0x192)](_0x49e149)
+                  ),
+                  console[_0x3bf64a(0x1a7)](
+                      localStorage[_0x3bf64a(0x167)]("previousAnswers")
+                  ))
+                : ((_0x39e395[_0x3bf64a(0x18b)] =
+                      _0x3bf64a(0x1b1) + (_0x449df3 + 0x1)),
+                  (_0x57e5c4["innerHTML"] = _0x3eabcd[_0x449df3]["question"]),
+                  (_0x4f61fd["innerHTML"] = _0x3eabcd[_0x449df3]["a1"]),
+                  (_0x522de4["innerHTML"] = _0x3eabcd[_0x449df3]["a2"]),
+                  (_0xd38d85[_0x3bf64a(0x18b)] = _0x3eabcd[_0x449df3]["a3"]),
+                  (_0x5e7b10[_0x3bf64a(0x18b)] = _0x3eabcd[_0x449df3]["a4"]),
+                  (_0x338dca[_0x3bf64a(0x18b)] =
+                      _0x3eabcd[_0x449df3][_0x3bf64a(0x198)]),
+                  (_0x4039cd["innerHTML"] = _0x3eabcd[_0x449df3]["info"]));
+    }
+    let _0x3f0f12 = document["getElementById"](_0x3518f3(0x178));
+    function _0x245794(_0x65b56e) {
+        const _0x5805fe = _0x3518f3;
+        let _0x485ed4 = 0x64 / _0x3eabcd["length"];
+        _0x3f0f12["style"][_0x5805fe(0x1ae)] = _0x65b56e * _0x485ed4 + "%";
+    }
+    let _0x5c85db = document["getElementById"]("recommendedPlans"),
+        _0x2b43fa = document[_0x3518f3(0x182)](_0x3518f3(0x1d8));
+    _0x2b43fa["forEach"]((_0xd70b54) => {
+        const _0x2d8a2b = _0x3518f3;
+        _0xd70b54[_0x2d8a2b(0x1ba)](_0x2d8a2b(0x1d3), function () {
+            const _0x30107d = _0x2d8a2b;
+            _0x2b43fa["forEach"]((_0x1bb3c1) => {
+                const _0x24737b = _0x8544;
+                _0x1bb3c1[_0x24737b(0x17d)][_0x24737b(0x1ad)](_0x24737b(0x1e2));
+            }),
+                this[_0x30107d(0x17d)]["add"](_0x30107d(0x1e2)),
+                _0x24c7d8(this["id"]);
+        });
+    });
+    function _0x24c7d8(_0x2ef259) {
+        const _0x25d3a1 = _0x3518f3;
+        _0x13df5b = 0x1;
+        _0x2ef259 == _0x25d3a1(0x181) && _0x1af494(_0x33e4c4);
+        if (_0x2ef259 == _0x25d3a1(0x1d5)) {
+            let _0x58665f = [];
+            for (let _0x1db6e0 of _0x33e4c4) {
+                (_0x1db6e0[_0x25d3a1(0x172)]["includes"]("Verizon") ||
+                    _0x1db6e0[_0x25d3a1(0x172)]["includes"](
+                        _0x25d3a1(0x1dc)
+                    )) &&
+                    _0x58665f[_0x25d3a1(0x1af)](_0x1db6e0);
+            }
+            _0x1af494(_0x58665f);
+        }
+        if (_0x2ef259 == _0x25d3a1(0x1d6)) {
+            let _0x500547 = [];
+            for (let _0x593f4b of _0x33e4c4) {
+                (_0x593f4b[_0x25d3a1(0x172)][_0x25d3a1(0x1e1)](
+                    _0x25d3a1(0x1cb)
+                ) ||
+                    _0x593f4b[_0x25d3a1(0x172)][_0x25d3a1(0x1e1)](
+                        _0x25d3a1(0x1dc)
+                    )) &&
+                    _0x500547[_0x25d3a1(0x1af)](_0x593f4b);
+            }
+            _0x1af494(_0x500547);
+        }
+        if (_0x2ef259 == _0x25d3a1(0x1a2)) {
+            let _0x42e15b = [];
+            for (let _0x485252 of _0x33e4c4) {
+                (_0x485252[_0x25d3a1(0x172)][_0x25d3a1(0x1e1)](
+                    _0x25d3a1(0x17e)
+                ) ||
+                    _0x485252[_0x25d3a1(0x172)][_0x25d3a1(0x1e1)](
+                        _0x25d3a1(0x1dc)
+                    )) &&
+                    _0x42e15b[_0x25d3a1(0x1af)](_0x485252);
+            }
+            _0x1af494(_0x42e15b);
+        }
+        console["log"](_0x2b3531);
+    }
+    let _0x2b3531;
+    function _0x1af494(_0x22f7a4) {
+        const _0x2ce33a = _0x3518f3;
+        for (let _0x4249a9 of _0x22f7a4) {
+            let _0x1d0383 = [];
+            for (
+                let _0x57c26c = 0x0;
+                _0x57c26c < _0x4249a9["score"][_0x2ce33a(0x1e4)];
+                _0x57c26c++
+            ) {
+                let _0x119a59 = Math["abs"](
+                    _0x49e149[_0x57c26c + 0x1] -
+                        parseInt(_0x4249a9[_0x2ce33a(0x1a4)][_0x57c26c])
+                );
+                _0x1d0383["push"](_0x119a59);
+            }
+            let _0x549635 = 0x0;
+            for (
+                let _0x4cccc1 = 0x0;
+                _0x4cccc1 < _0x1d0383[_0x2ce33a(0x1e4)];
+                _0x4cccc1++
+            ) {
+                _0x549635 += _0x1d0383[_0x4cccc1];
+            }
+            _0x4249a9["total"] = _0x549635;
+        }
+        (_0x2b3531 = _0x22f7a4[_0x2ce33a(0x194)](
+            (_0x2832cb, _0x2b10cd) =>
+                _0x2832cb[_0x2ce33a(0x183)] - _0x2b10cd[_0x2ce33a(0x183)]
+        )),
+            console[_0x2ce33a(0x1a7)](_0x2b3531),
+            _0x24faff(_0x2b3531);
+    }
+    let _0x13df5b = 0x1;
+    function _0x24faff(_0x104d9e) {
+        const _0x46f188 = _0x3518f3,
+            _0x5273ad = 0x4,
+            _0x14ccea = Math["ceil"](_0x104d9e["length"] / _0x5273ad);
+        _0x5c85db["innerHTML"] = "";
+        const _0x56a89f = (_0x13df5b - 0x1) * _0x5273ad,
+            _0x5c5ee4 = Math[_0x46f188(0x1dd)](
+                _0x56a89f + _0x5273ad,
+                _0x104d9e[_0x46f188(0x1e4)]
+            );
+        for (let _0x59f054 = _0x56a89f; _0x59f054 < _0x5c5ee4; _0x59f054++) {
+            const _0x1efd24 = _0x104d9e[_0x59f054];
+            _0x5c85db[_0x46f188(0x18b)] +=
+                "<div\x20class=\x22plan\x20" +
+                _0x1efd24[_0x46f188(0x19b)] +
+                _0x46f188(0x16d) +
+                _0x1efd24[_0x46f188(0x19b)] +
+                "\x22>" +
+                _0x1efd24[_0x46f188(0x174)] +
+                _0x46f188(0x18a) +
+                _0x3ded49 +
+                "\x20Line</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22network\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-access-point\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M12\x2012l0\x20.01\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M14.828\x209.172a4\x204\x200\x200\x201\x200\x205.656\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M17.657\x206.343a8\x208\x200\x200\x201\x200\x2011.314\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M9.168\x2014.828a4\x204\x200\x200\x201\x200\x20-5.656\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M6.337\x2017.657a8\x208\x200\x200\x201\x200\x20-11.314\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>" +
+                _0x1efd24["network"] +
+                _0x46f188(0x1c9) +
+                parseInt(_0x1efd24[_0x46f188(0x173)]) * _0x3ded49 +
+                _0x46f188(0x16e) +
+                _0x1efd24[_0x46f188(0x169)] +
+                _0x46f188(0x19c) +
+                _0x1efd24[_0x46f188(0x1d2)] +
+                _0x46f188(0x1df) +
+                _0x1efd24[_0x46f188(0x1b9)] +
+                _0x46f188(0x1db) +
+                _0x1efd24[_0x46f188(0x1c8)] +
+                _0x46f188(0x195) +
+                _0x1efd24["hotspot"] +
+                _0x46f188(0x16a) +
+                _0x1efd24[_0x46f188(0x1bf)] +
+                _0x46f188(0x1c0) +
+                _0x1efd24[_0x46f188(0x1ab)] +
+                _0x46f188(0x197) +
+                _0x1efd24[_0x46f188(0x179)] +
+                _0x46f188(0x17f) +
+                _0x1efd24["intTexts"] +
+                _0x46f188(0x19a) +
+                _0x1efd24[_0x46f188(0x184)] +
+                _0x46f188(0x1cf) +
+                _0x1efd24[_0x46f188(0x177)] +
+                _0x46f188(0x170) +
+                _0x1efd24["intData"] +
+                _0x46f188(0x1cc) +
+                _0x1efd24[_0x46f188(0x1e5)] +
+                _0x46f188(0x18c) +
+                _0x1efd24[_0x46f188(0x17c)] +
+                _0x46f188(0x1b8);
+        }
+        console[_0x46f188(0x1a7)](_0x14ccea), _0x2ea396(_0x14ccea);
+    }
+    function _0x2ea396(_0x4a768f) {
+        const _0x3ec2fa = _0x3518f3;
+        let _0x3eb82d = document["getElementById"](_0x3ec2fa(0x1a0));
+        _0x3eb82d[_0x3ec2fa(0x18b)] = "";
+        for (let _0x32a31c = 0x1; _0x32a31c <= _0x4a768f; _0x32a31c++) {
+            const _0x905249 = document[_0x3ec2fa(0x1b5)](_0x3ec2fa(0x1ac));
+            _0x905249[_0x3ec2fa(0x17d)][_0x3ec2fa(0x191)]("pageBtns"),
+                _0x32a31c === _0x13df5b &&
+                    _0x905249[_0x3ec2fa(0x17d)][_0x3ec2fa(0x191)](
+                        "pageBtnClick"
+                    ),
+                (_0x905249[_0x3ec2fa(0x175)] = "" + _0x32a31c),
+                _0x905249[_0x3ec2fa(0x1ba)](_0x3ec2fa(0x1d3), () => {
+                    (_0x13df5b = _0x32a31c), _0x24faff(_0x2b3531);
+                }),
+                _0x3eb82d[_0x3ec2fa(0x193)](_0x905249);
+        }
+    }
+    document[_0x3518f3(0x1ca)]("newQuiz")[_0x3518f3(0x1ba)](
+        _0x3518f3(0x1d3),
+        () => {
+            const _0x2b369c = _0x3518f3;
+            _0x4496ca[_0x2b369c(0x1b3)][_0x2b369c(0x1c7)] = "flex";
+            for (let _0x40ef0c of _0x2f7d53) {
+                _0x40ef0c["style"][_0x2b369c(0x1c7)] = _0x2b369c(0x1be);
+            }
+            (_0x2b012e[_0x2b369c(0x1b3)][_0x2b369c(0x1c7)] = _0x2b369c(0x189)),
+                (planHead["style"][_0x2b369c(0x1c7)] = _0x2b369c(0x189)),
+                (_0x58cca5[_0x2b369c(0x1b3)][_0x2b369c(0x1c7)] =
+                    _0x2b369c(0x189)),
+                (_0x49e149 = []),
+                (_0x5c85db[_0x2b369c(0x18b)] = ""),
+                (_0x5d6031 = 0x0),
+                (_0x3f0f12[_0x2b369c(0x1b3)][_0x2b369c(0x1ae)] = "0"),
+                (_0x13df5b = 0x1),
+                localStorage[_0x2b369c(0x1c6)](),
+                $(_0x2b369c(0x199))[_0x2b369c(0x19f)](_0x2b369c(0x1b0));
+        }
+    ),
+        $(_0x3518f3(0x199))["on"](_0x3518f3(0x1d3), _0x51877d);
+    function _0x51877d() {
+        const _0xaa072a = _0x3518f3;
+        if (localStorage[_0xaa072a(0x167)](_0xaa072a(0x190)) !== null) {
+            $(_0xaa072a(0x199))[_0xaa072a(0x19f)](_0xaa072a(0x1b0));
+            for (let _0x12d943 of _0x2f7d53) {
+                _0x12d943[_0xaa072a(0x1b3)]["display"] = _0xaa072a(0x189);
+            }
+            (_0x4496ca[_0xaa072a(0x1b3)]["display"] = "none"),
+                (_0x5dc481["style"][_0xaa072a(0x1c7)] = _0xaa072a(0x1be)),
+                (_0x5dc481["style"][_0xaa072a(0x1c7)] = _0xaa072a(0x189)),
+                (_0x2b012e[_0xaa072a(0x1b3)][_0xaa072a(0x1c7)] =
+                    _0xaa072a(0x1be)),
+                (planHead["style"][_0xaa072a(0x1c7)] = "block"),
+                (_0x58cca5[_0xaa072a(0x1b3)][_0xaa072a(0x1c7)] =
+                    _0xaa072a(0x176)),
+                (_0x49e149 = JSON["parse"](
+                    localStorage[_0xaa072a(0x167)](_0xaa072a(0x190))
+                )),
+                (_0x3ded49 = _0x49e149[0x0]),
+                _0x1af494(_0x33e4c4);
+        } else
+            console[_0xaa072a(0x1a8)](_0xaa072a(0x1a1)),
+                $(_0xaa072a(0x199))[_0xaa072a(0x19f)](_0xaa072a(0x1b0));
+    }
+    document[_0x3518f3(0x1ca)](_0x3518f3(0x1bc))[_0x3518f3(0x175)] = new Date()[
+        "getFullYear"
+    ]();
+}
+function _0x28c9() {
+    const _0x60266f = [
+        "score",
+        "655XkDzAx",
+        "clicked",
+        "log",
+        "error",
+        "html",
+        "getElementsByClassName",
+        "texts",
+        "button",
+        "remove",
+        "width",
+        "push",
+        "hidden",
+        "Question\x20",
+        "236eLjaoV",
+        "style",
+        "header",
+        "createElement",
+        "forEach",
+        ".accordionIcon",
+        "</a><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-arrow-big-right\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#000000\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M4\x209h8v-3.586a1\x201\x200\x200\x201\x201.707\x20-.707l6.586\x206.586a1\x201\x200\x200\x201\x200\x201.414l-6.586\x206.586a1\x201\x200\x200\x201\x20-1.707\x20-.707v-3.586h-8a1\x201\x200\x200\x201\x20-1\x20-1v-4a1\x201\x200\x200\x201\x201\x20-1z\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>",
+        "afterHighSpeed",
+        "addEventListener",
+        "querySelector",
+        "year",
+        "1760wQLLJm",
+        "flex",
+        "streamQlty",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22texts\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-message-circle-2\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3\x2020l1.3\x20-3.9a9\x208\x200\x201\x201\x203.4\x202.9l-4.7\x201\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
+        "<svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20fill=\x22none\x22\x20stroke=\x22currentColor\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22\x20width=\x2224\x22\x20height=\x2224\x22\x20stroke-width=\x222\x22>\x20<path\x20d=\x22M12\x205l0\x2014\x22></path>\x20<path\x20d=\x22M5\x2012l14\x200\x22></path>\x20</svg>",
+        "7227bxBfuf",
+        "#answers\x20button",
+        "modalP",
+        "select",
+        "clear",
+        "display",
+        "priorityData",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22priceNtax\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22price\x22><span\x20class=\x22largePrice\x22>$",
+        "getElementById",
+        "AT&T",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22linkBtn\x22><a\x20class=\x22planLink\x22\x20href=\x22",
+        "question",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNpcmlnYXJ2bXhpaW54eWVybW9qIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjUzMzg0OTksImV4cCI6MjA0MDkxNDQ5OX0.m14T-4NNpWOgT886U5diabvtpmTRJcEnjPbzIZ2utVc",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22mexData\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-plane\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M16\x2010h4a2\x202\x200\x200\x201\x200\x204h-4l-4\x207h-3l2\x20-7h-4l-2\x202h-3l2\x20-4l-2\x20-4h3l2\x202h4l-2\x20-7h3z\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
+        "#accordion",
+        "questionNum",
+        "highSpeed",
+        "click",
+        "order",
+        "verizonFilter",
+        "attFilter",
+        "13NUJSLu",
+        ".filter",
+        "contains",
+        "https://sirigarvmxiinxyermoj.supabase.co",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22priority\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-brand-speedtest\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M5.636\x2019.364a9\x209\x200\x201\x201\x2012.728\x200\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M16\x209l-4\x204\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
+        "Any",
+        "min",
+        "5111424QFVldr",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22afterHighSpeed\x22>",
+        "questions",
+        "includes",
+        "filterClick",
+        "content",
+        "length",
+        "linkToSite",
+        "introText",
+        "footer",
+        "getItem",
+        "start",
+        "taxes",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22streaming\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-brand-zoom\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M17.011\x209.385v5.128l3.989\x203.487v-12z\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3.887\x206h10.08c1.468\x200\x203.033\x201.203\x203.033\x202.803v8.196a.991\x20.991\x200\x200\x201\x20-.975\x201h-10.373c-1.667\x200\x20-2.652\x20-1.5\x20-2.652\x20-3l.01\x20-8a.882\x20.882\x200\x200\x201\x20.208\x20-.71a.841\x20.841\x200\x200\x201\x20.67\x20-.287z\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
+        "restart",
+        "<svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20fill=\x22none\x22\x20stroke=\x22currentColor\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22\x20width=\x2224\x22\x20height=\x2224\x22\x20stroke-width=\x222\x22>\x20<path\x20d=\x22M5\x2012l14\x200\x22></path>\x20</svg>",
+        "Border\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20class=\x22cardHead\x20",
+        "</span>/mo.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22tax\x22>",
+        "23661BIqlAI",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22intData\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-world\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3\x2012a9\x209\x200\x201\x200\x2018\x200a9\x209\x200\x200\x200\x20-18\x200\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3.6\x209h16.8\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3.6\x2015h16.8\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M11.5\x203a17\x2017\x200\x200\x200\x200\x2018\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M12.5\x203a17\x2017\x200\x200\x201\x200\x2018\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
+        "Error\x20fetching\x20question\x20data:",
+        "network",
+        "pricePer",
+        "plan",
+        "textContent",
+        "block",
+        "mexData",
+        "progressBar",
+        "calls",
+        "from",
+        "314wMXzUt",
+        "fullCompanyName",
+        "classList",
+        "T-Mobile",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22intTexts\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-message\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M8\x209h8\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M8\x2013h6\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M18\x204a3\x203\x200\x200\x201\x203\x203v8a3\x203\x200\x200\x201\x20-3\x203h-5l-5\x203v-3h-2a3\x203\x200\x200\x201\x20-3\x20-3v-8a3\x203\x200\x200\x201\x203\x20-3h12z\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
+        "77371hJuNlf",
+        "allFilter",
+        "querySelectorAll",
+        "total",
+        "intCalls",
+        "plansWrapper",
+        "4317324hNmcMH",
+        ".ui-state-active\x20.accordionIcon",
+        "infoModal",
+        "none",
+        "</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22subHead\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22lines\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-users\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M9\x207m-4\x200a4\x204\x200\x201\x200\x208\x200a4\x204\x200\x201\x200\x20-8\x200\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M3\x2021v-2a4\x204\x200\x200\x201\x204\x20-4h4a4\x204\x200\x200\x201\x204\x204v2\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M16\x203.13a4\x204\x200\x200\x201\x200\x207.75\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M21\x2021v-2a4\x204\x200\x200\x200\x20-3\x20-3.85\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
+        "innerHTML",
+        "\x22\x20target=\x22_blank\x22>View\x20at\x20",
+        "424uUydBX",
+        "31338qANsGC",
+        "modalHead",
+        "previousAnswers",
+        "add",
+        "stringify",
+        "appendChild",
+        "sort",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22hotspot\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20fill=\x22none\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20class=\x22size-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22\x20d=\x22M13.19\x208.688a4.5\x204.5\x200\x200\x201\x201.242\x207.244l-4.5\x204.5a4.5\x204.5\x200\x200\x201-6.364-6.364l1.757-1.757m13.35-.622\x201.757-1.757a4.5\x204.5\x200\x200\x200-6.364-6.364l-4.5\x204.5a4.5\x204.5\x200\x200\x200\x201.242\x207.244\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
+        "#modalWrapper\x20svg",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22calls\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-phone\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M5\x204h4l2\x205l-2.5\x201.5a11\x2011\x200\x200\x200\x205\x205l1.5\x20-2.5l5\x202v4a2\x202\x200\x200\x201\x20-2\x202a16\x2016\x200\x200\x201\x20-15\x20-15a2\x202\x200\x200\x201\x202\x20-2\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
+        "title",
+        "#resume",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22intCalls\x22><svg\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20class=\x22icon\x20icon-tabler\x20icon-tabler-phone-call\x22\x20width=\x2244\x22\x20height=\x2244\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20stroke-width=\x221.5\x22\x20stroke=\x22#ffffff\x22\x20fill=\x22none\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20stroke=\x22none\x22\x20d=\x22M0\x200h24v24H0z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M5\x204h4l2\x205l-2.5\x201.5a11\x2011\x200\x200\x200\x205\x205l1.5\x20-2.5l5\x202v4a2\x202\x200\x200\x201\x20-2\x202a16\x2016\x200\x200\x201\x20-15\x20-15a2\x202\x200\x200\x201\x202\x20-2\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M15\x207a2\x202\x200\x200\x201\x202\x202\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M15\x203a6\x206\x200\x200\x201\x206\x206\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
+        "company",
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22highSpeed\x22>",
+        "this\x20is\x20num",
+        "404aBJTpc",
+        "addClass",
+        "pageButtons",
+        "There\x20was\x20an\x20error\x20retrieving\x20previous\x20answers.\x20Please\x20retake\x20the\x20quiz.",
+        "tmobileFilter",
+        "plans",
+    ];
+    _0x28c9 = function () {
+        return _0x60266f;
+    };
+    return _0x28c9();
+}
+const plusIcon = _0x37f1e4(0x1c1),
+    minusIcon = _0x37f1e4(0x16c);
+$(function () {
+    const _0x1868a9 = _0x37f1e4;
+    localStorage[_0x1868a9(0x167)]("previousAnswers") &&
+        $(_0x1868a9(0x199))["removeClass"]("hidden"),
+        $(_0x1868a9(0x1d0))["accordion"]({
+            active: ![],
+            collapsible: !![],
+            icons: ![],
+            heightStyle: _0x1868a9(0x1e3),
+            create: function (_0x2a6863, _0x3ddc90) {
+                const _0x3c787d = _0x1868a9;
+                $(_0x3c787d(0x1b7))[_0x3c787d(0x1a9)](plusIcon);
+            },
+            activate: function (_0x35bd07, _0x284cfe) {
+                const _0x215412 = _0x1868a9;
+                $(_0x215412(0x1b7))[_0x215412(0x1a9)](plusIcon),
+                    $(_0x215412(0x187))[_0x215412(0x1a9)](minusIcon);
+            },
+        }),
+        $(".owl-carousel")["owlCarousel"]({
+            loop: !![],
+            margin: 0xf,
+            responsive: { 0x0: { items: 0x2 }, 0x1e0: { items: 0x3 } },
+            autoplay: !![],
+            autoplayTimeout: 0x1388,
+            autoplayHoverPause: !![],
+            dots: !![],
+        });
+}),
+    fetchQuestions();
